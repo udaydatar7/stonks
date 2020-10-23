@@ -19,7 +19,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-![](Drive_Mount.JPG)
+
 
 Once your drive is mounted, execute each cell of the notebook.
 
@@ -86,6 +86,19 @@ model = keras.Model(inputs=inputs, outputs=outputs)
 model.compile(optimizer='adam', loss="mse")
 model.summary()
 ```
+# EXAMPLE
+
+First you are given a choice to pick a stock from the given stock.csv file.
+
+![](Selection.JPG)
+
+Then there are 3 plots. The first plot is a graph showing stock price vs volume for the data in the training range. The Second plot is a graph showing stock price vs volume for the data in the testing range. 
+
+![](Training_Testing.JPG)
+
+The final plot is the graph for original values and the values predicted by the stock:
+
+![](OvsP.JPG)
 
 # CONTRIBUTION
 
