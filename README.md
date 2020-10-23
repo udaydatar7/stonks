@@ -106,7 +106,6 @@ Anyone is welcome to fork this repository and use as they please.
 
 (READ DISCLAIMER)
 
-Pull requests are also encouraged and you can help me inprove this program.
 
 # LICENSE 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
