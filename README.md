@@ -19,7 +19,7 @@ from google.colab import drive
 drive.mount('/content/drive')
 ```
 
-![](2020-10-23-13-07-22.png)
+![](Drive_Mount.JPG)
 
 Once your drive is mounted, execute each cell of the notebook.
 
