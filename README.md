@@ -14,6 +14,11 @@ Download the files (stock.csv, stock_volume.csv) and upload them to your drive.
 
 Mount your drive:
 
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
 ![](2020-10-23-13-07-22.png)
 
 Once your drive is mounted, execute each cell of the notebook.
@@ -81,19 +86,6 @@ model = keras.Model(inputs=inputs, outputs=outputs)
 model.compile(optimizer='adam', loss="mse")
 model.summary()
 ```
-# EXAMPLE
-
-The stocks available are first displayed from which the user has to make a selection :
-
-![Selection](2020-10-23-13-04-43.png)
-
-The following 2 graphs are output:
-
-![Training Testing](2020-10-23-13-03-08.png)
-
-And then after evaluating the epochs, the final graph is output:
-
-![Original vs Predicted](2020-10-23-13-04-01.png)
 
 # CONTRIBUTION
 
