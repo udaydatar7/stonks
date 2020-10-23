@@ -85,15 +85,15 @@ model.summary()
 
 The stocks available are first displayed from which the user has to make a selection :
 
-![](2020-10-23-13-04-43.png)
+![Selection](2020-10-23-13-04-43.png)
 
 The following 2 graphs are output:
 
-![](2020-10-23-13-03-08.png)
+![Training Testing](2020-10-23-13-03-08.png)
 
 And then after evaluating the epochs, the final graph is output:
 
-![](2020-10-23-13-04-01.png)
+![Original vs Predicted](2020-10-23-13-04-01.png)
 
 # CONTRIBUTION
 
