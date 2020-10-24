@@ -1,4 +1,4 @@
-# STOCK PREDICTOR
+# STONKS
 
 This is a python notebook made on Google Colab that uses Keras to predict the value of the stock specified. 
 
@@ -9,6 +9,8 @@ DO NOT USE THIS TO PREDICT STOCKS IN THE REAL WORLD. PREDICTING STOCKS IS EXTREM
 # HOW IT WORKS
 
 It takes in closing values of stocks between 2012 and 2020 from a csv file in the repository. 
+
+Preferably use Google Colab as it won't require you to install libraries.
 
 Download the files (stock.csv, stock_volume.csv) and upload them to your drive.
 
